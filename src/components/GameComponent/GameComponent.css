@@ -1,1 +1,33 @@
-/* this is style  */
+.GameContainer{
+    display: flex;
+}
+
+.Player1{
+    width: 25%;
+    border: 2px solid black;
+}
+
+.GameDiv{
+    width: 50%;
+    border: 2px solid black;
+}
+
+.Player2{
+    width: 25%;
+    border: 2px solid black;
+}
+
+.boxContainer{
+    display: grid;
+    /* grid-template-columns: repeat(3,200px); */
+    grid-template-columns: 30% 30% 30%;
+    padding: 20px;
+
+}
+
+.box
+{
+    height: 190px;
+    width: 100%;
+    border: 1px solid black
+}
